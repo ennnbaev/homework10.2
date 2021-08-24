@@ -10,7 +10,8 @@ public class Homework {
         List<Employee> collection=new ArrayList<>();
         collection.add(new Employee("Danil","Enbaev",55000));
         collection.add(new Employee("Liza","Savchenko",9000));
-        collection.add(new Employee("Denis","Maksymenko",18000));
+        collection.add(new Employee("Kirill","Kondrat",18500.2));
+        collection.add(new Employee("Denis","Maksymenko",18500.1));
         System.out.println(collection);
         EmployeeComparator comparator=new EmployeeComparator();
         Collections.sort(collection,comparator);
